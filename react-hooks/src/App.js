@@ -1,8 +1,9 @@
 import './App.css';
+import UseContext from './hooks/UseContext';
 // import UseCallback from './hooks/UseCallback';
 // import UseEffect from './hooks/UseEffect';
 // import UseStateHook from './hooks/UseStateHook';
-import UseMemo from './hooks/UseMemo';
+// import UseMemo from './hooks/UseMemo';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       {/* <UseStateHook /> */}
       {/* <UseEffect /> */}
       {/* <UseCallback /> */}
-      <UseMemo />
+      <UseContext />
     </>
   );
 }
